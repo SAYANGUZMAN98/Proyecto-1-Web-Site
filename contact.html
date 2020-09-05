@@ -94,33 +94,7 @@
   <!-- ================ contact section start ================= -->
   <section class="contact-section section_padding">
     <div class="container">
-      <div class="d-none d-sm-block mb-5 pb-4">
-        <div id="map" style="height: 480px;"></div>
-        <script>
-          function initMap() {
-            var uluru = {lat: -25.363, lng: 131.044};
-            var grayStyles = [
-              {
-                featureType: "all",
-                stylers: [
-                  { saturation: -90 },
-                  { lightness: 50 }
-                ]
-              },
-              {elementType: 'labels.text.fill', stylers: [{color: '#ccdee9'}]}
-            ];
-            var map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: -31.197, lng: 150.744},
-              zoom: 9,
-              styles: grayStyles,
-              scrollwheel:  false
-            });
-          }
-          
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
-        
-      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61768.37086689009!2d-90.52757989653291!3d14.626217435183055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a180655c3345%3A0x4a72c7815b867b25!2sCdad.%20de%20Guatemala!5e0!3m2!1ses!2sgt!4v1599269356710!5m2!1ses!2sgt" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
       <div class="row">
@@ -154,6 +128,7 @@
             </div>
             <div class="form-group mt-3">
               <button type="submit" class="button button-contactForm btn_4 boxed-btn">Send Message</button>
+              <button type="submit" class="button button-contactForm btn_4 boxed-btn">Cancel</button>
             </div>
           </form>
         </div>
@@ -161,21 +136,21 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>Buttonwood, California.</h3>
-              <p>Rosemead, CA 91770</p>
+              <h3>Guatemala, Guatemala.</h3>
+              <p>Carretera a Villa Canales KM19.3, CP 01065</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3>00 (440) 9865 562</h3>
+              <h3>(502) 5743 6121</h3>
               <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3>support@colorlib.com</h3>
+              <h3>Saguirreg1@miumg.edu.gt</h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>
@@ -186,48 +161,47 @@
   <!-- ================ contact section end ================= -->
 
   <!-- footer start -->
-  <footer class="footer">
-      <div class="footer_top">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-xl-6 col-md-6">
-                      <div class="menu_links">
-                          <ul>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Services</a></li>
-                              <li><a href="#">Portfolio</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-xl-6 col-md-6">
-                      <div class="socail_links">
-                          <ul>
-                              <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                              <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                              <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                              <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="copy-right_text">
-          <div class="container">
-              <div class="footer_border"></div>
-              <div class="row">
-                  <div class="col-xl-12">
-                      <p class="copy_right text-center">
-                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="menu_links">
+                            <ul>
+                                <li><a href="about.html">Proyectos</a></li>
+                                <li><a href="services.html">Publicidad</a></li>      
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="socail_links">
+                            <ul>
+                                <li><a href="https://www.facebook.com/SayanGuzman"> <i class="fa fa-facebook"></i> </a></li>
+                                <li><a href="https://twitter.com/sayan_guzman"> <i class="fa fa-twitter"></i> </a></li>
+                                <li><a href="https://www.instagram.com/SAYANGUZMAN/"> <i class="fa fa-instagram"></i> </a></li>
+                                <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </footer>
-  <!--/ footer end  -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
 
   <!-- JS here -->
   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
