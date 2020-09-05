@@ -1,10 +1,11 @@
 body {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-left: 30px;
     font-family: Georgia, "Times New Roman",
     Times, serif;
+    background-color: lightgrey;
     color: AliceBlue;
     background-color: #F0F8FF 
 }
@@ -33,7 +34,7 @@ h3 {
         color: blue 
     }
     a:visited {
-        color: AliceBlue 
+        color: lighgrey 
     }
     address {
         margin-top: 1em;
