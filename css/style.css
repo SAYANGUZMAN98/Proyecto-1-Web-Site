@@ -1469,8 +1469,8 @@ h3 {
   bottom: 0;
   left: 0;
   background-image: url(../img/about/man.png);
-  width: 724px;
-  height: 767px;
+  width: 640px;
+  height: 640px;
   content: '';
 }
 
@@ -2540,7 +2540,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/banner.png);
 }
 
 /* line 4, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_bradcam.scss */
