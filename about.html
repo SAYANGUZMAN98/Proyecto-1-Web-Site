@@ -8,29 +8,9 @@
     <meta name="description" content="">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Accordion - Customize icons</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    var icons = {
-      header: "ui-icon-circle-arrow-e",
-      activeHeader: "ui-icon-circle-arrow-s"
-    };
-    $( "#accordion" ).accordion({
-      icons: icons
-    });
-    $( "#toggle" ).button().on( "click", function() {
-      if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
-        $( "#accordion" ).accordion( "option", "icons", null );
-      } else {
-        $( "#accordion" ).accordion( "option", "icons", icons );
-      }
-    });
-  } );
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- Place favicon.ico in the root directory -->
@@ -114,8 +94,9 @@
         </div>
     </div>
     <!-- /bradcam_area  -->
-  
-<div id="accordion">
+ <div class="container"></div>
+  <div id="tabs">
+ 
   <h3>Section 1</h3>
   <div>
     <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
@@ -139,7 +120,7 @@
   </div>
 </div>
  
-<button id="toggle">Toggle icons</button>
+
 
     <!-- testimonial_area  -->
     <div class="testimonial_area ">
