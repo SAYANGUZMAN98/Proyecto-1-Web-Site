@@ -29,26 +29,19 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     
-    
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
-    $( "#tabs" ).tabs({
-      beforeLoad: function( event, ui ) {
-        ui.jqXHR.fail(function() {
-          ui.panel.html(
-            "Couldn't load this tab. We'll try to fix this as soon as possible. " +
-            "If this wouldn't be a demo." );
-        });
+    var tabs = $( "#tabs" ).tabs();
+    tabs.find( ".ui-tabs-nav" ).sortable({
+      axis: "x",
+      stop: function() {
+        tabs.tabs( "refresh" );
       }
     });
   } );
-  </sc
-   
-
+  </script>
 </head>
 
 <body>
